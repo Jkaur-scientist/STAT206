@@ -1,0 +1,38 @@
+Social Media Use, Academic Impact, and Mental Health in Students.
+**1. Introduction**
+
+This project will analyze a student social media dataset to evaluate how patterns of social media use relate to academic performance and mental health outcomes. The dataset includes social media variables (average daily use, most-used platforms, conflict caused by social media, and self-perceived addiction) and demographic characteristics (age, gender, education level, and country of residence). Our objective is to identify harmful use patterns that may be associated with poorer academic outcomes, potentially mediated by worse mental health indicators
+**2. Dataset and Data Characteristics**
+
+Primary outcomes (pre-specified):
+ Academic impact (binary): `Affects_Academic_Performance` (Yes/No), and modeled as `AcadAffected` (1/0).
+
+Mental health (continuous): `Mental_Health_Score.`
+
+Primary predictors (pre-specified):
+
+`Avg_Daily_Usage_Hours` (usage intensity)
+
+`Conflicts_Over_Social_Media` (social conflict indicator)
+
+`Addicted_Score` (self-reported addictive tendency)
+
+Covariates (controls): `Age`, `gender`, `academic level`, and `country group`.
+
+Primary hypotheses (confirmatory):
+
+H1: Higher usage, conflicts, and addiction score are associated with higher odds of academic impact (`AcadAffected=1`).
+
+H2: Higher usage, conflicts, and addiction score are associated with worse mental health (`lower Mental_Health_Score`).
+
+Secondary / exploratory questions.
+
+Platform differences: Does `Most_Used_Platform` relate to outcomes after adjustment?
+
+Moderation: Do associations vary by `Academic_Level` or `Country_Group`?
+**3. Data Analysis**
+pip install notebook jupyter pandas matplotlib seaborn scipy statsmodels openpyxl
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
