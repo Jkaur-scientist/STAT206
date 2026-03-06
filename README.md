@@ -1,15 +1,21 @@
-# GitHub Tutorial
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# UCR STAT 206 Project
 
-## Student Instructions
+## Class
+UCR STAT 206
 
-1. **Clone** this repository to your computer.
-2. **Create your own branch** from the `main` branch using your SIS ID as the branch name.
-3. **Edit** `motivation.py` in the specified section of the code.
-    + Add a single line of Python code changing *your* grade to an `'A'`.
-4. **Commit** your changes.
-5. **Push** your work onto the remote repository (on GitHub).
-6. **Create a pull request** asking merge your work with `DIS002` or `DIS003`, depending on which section you are enrolled in.
+## Due Date
+March 19, 2026
 
-At the end, we will merge everyone's code to `main`, run the script, and commit any additional changes made.
+## Group Members
+- Aidan Nagola
+- Jaspreet Kaur
+- Riya Bansal
 
-TEST
+
+## Project Description
+This project will analyze a student social media dataset to evaluate how patterns of social media use relate to academic performance and mental health outcomes. The dataset includes social media variables (average daily use, most-used platforms, conflict caused by social media, and self-perceived addiction) and demographic characteristics (age, gender, education level, and country of residence). Our objective is to identify harmful use patterns that may be associated with poorer academic outcomes, potentially mediated by worse mental health indicators, that ultimately deteriorate the students' performance.# STAT206
